@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/clothesneq"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image_border"
+        android:padding="7dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cimealogo" />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/welcom"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Welcome To The"
+        android:padding="10dp"
+        android:textColor="#D415F5"
+        android:textSize="42sp"
+
+        />
+    <TextView
+        android:id="@+id/cimea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="120dp"
+        android:text="Cimea"
+        android:textColor="#DF3030"
+        android:fontFamily="monospace"
+        android:textSize="52sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+
+</LinearLayout>

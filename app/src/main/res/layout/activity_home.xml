@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_border"
+        android:padding="7dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cimealogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#3EE94F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#2E4FEE"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-80dp"
+        android:textSize="31sp"
+        android:text="@string/admin_panal"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView_adduser"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="-50dp"
+            android:padding="8dp"
+            android:layout_marginLeft="85dp"
+            app:srcCompat="@drawable/adduser" />
+
+        <ImageView
+            android:id="@+id/imageView_addapperal"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="40dp"
+            android:padding="8dp"
+            app:srcCompat="@drawable/apperal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_addusers"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="85dp"
+            android:text="@string/add_users"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#2E4FEE"
+
+            />
+        <TextView
+            android:id="@+id/textview_addapperals"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#2E4FEE"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="@string/add_apperals"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/appe"
+        />
+</LinearLayout>
+
+
+</LinearLayout>

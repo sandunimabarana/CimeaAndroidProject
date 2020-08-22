@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">IndividualProject</string>
+    <string name="title_activity_delivery_item">New Delivery</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="add_users">Add Users</string>
+    <string name="add_apperals">Add Apperals</string>
+    <string name="welcome">Welcome</string>
+    <string name="admin_panal">Admin Panal</string>
+    <string name="add_user">Add User</string>
+    <string name="firstname">First Name</string>
+    <string name="address">Address</string>
+    <string name="phoneno">Phone No</string>
+    <string name="update">Update</string>
+    <string name="update_user_details">Update User Details</string>
+    <string name="id">ID</string>
+    <string name="view_users">View Users</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="invalid_password">Enter six digits password</string>
+    <string name="invalid_firstname">Please Enter Valid First Name</string>
+    <string name="invalid_lastname">Please Enter Valid Last Name</string>
+    <string name="invalid_address">Please Enter Valid Address</string>
+    <string name="invalid_phone">Please Enter Valid Phone No</string>
+
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="title_activity_fragment_navigation">FragmentNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

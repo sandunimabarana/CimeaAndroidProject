@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:alpha="0.8"
+    android:background="#4e0bde"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/image_border"
+        android:padding="7dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cimealogo" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="290dp"
+        android:background="@drawable/edittextcorner"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:hint="@string/username"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextcorner"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="@string/login"
+        android:background="@drawable/rounded_corners"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="65dp"
+            android:text="@string/not_registered"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="@string/register"
+            android:textColor="#0A0A0A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
